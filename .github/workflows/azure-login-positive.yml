@@ -309,7 +309,7 @@ jobs:
 
     - name: Run Azure PowerShell again
       uses: azure/powershell@v2
-      with:
+      with: 
         azPSVersion: "latest"
         inlineScript: |
           $checkResult = Get-AzResourceGroup
