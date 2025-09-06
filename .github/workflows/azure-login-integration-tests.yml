@@ -8,7 +8,7 @@ permissions:
       contents: write
 
 jobs: 
-
+ 
   az-login-test-non-oidc:
     runs-on: ubuntu-latest
 #     continue-on-error: true
